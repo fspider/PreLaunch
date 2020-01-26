@@ -1,0 +1,49 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel server.js -d dist",
+    "start": "npm run build && nodemon dist/server.js",
+    "server": "nodemon dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "uni"
+  ],
+  "author": "uni",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "http": "0.0.0",
+    "http-server": "^0.11.1",
+    "https": "^1.0.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mixpanel": "^0.10.3",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-file-viewer": "^1.1.0",
+    "socket.io": "^2.3.0",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "mocha": "^6.2.1"
+  }
+}

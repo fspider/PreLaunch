@@ -1,0 +1,141 @@
+.jumbotron {
+  margin-bottom: 4em;
+}
+.person-wrapper {
+  margin-bottom: 2em;
+}
+
+.profile-pic {
+  width: 50%;
+}
+
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #2892D7;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+.pre-launch{
+  background-image: url("../landing.jpg");
+  width: 100%;
+}
+
+.mark-image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.icon_link{
+  font-size:48px;
+}
+
+.btn_pre{
+  border-radius: 10px;
+  width:50px;
+  height: 50px;
+  padding-left: 9px;
+  padding-top: 10px;
+}
+
+.content{
+  margin-top:250px
+}
+
+/*#g-recaptcha{*/
+/*  display: none;*/
+/*}*/
+
+#g-recaptcha div { margin-left: auto; margin-right: auto; margin-top:50px}
+
+nav.navbar, .navbar-default {
+  background-color: transparent;
+  border:none;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+  text-align: center;
+}
+.popup_inner {
+  position: absolute;
+  /*display: flex;*/
+  text-align: center;
+  width:100%;
+  bottom: 0;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-top:3px solid gray;
+  color:white;
+  /*padding-left:100px*/
+}
+.popup_inner p{
+  font-size: 30px;
+  color:black;
+  padding:20px 50px 20px 50px
+}
+
+.popup_inner button{
+  border-radius:5px;
+  /*margin-left:100px;*/
+  margin-top:12px;
+  float:left;
+  font-size: 30px;
+  padding:10px 20px 10px 20px;
+  background-color: lightgray;
+  color:#357BB8;
+}
+
+.popup_inner a{
+  cursor:pointer;
+}

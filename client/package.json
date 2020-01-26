@@ -1,0 +1,31 @@
+{
+  "name": "react-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "axios": "^0.19.0",
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
+    "mixpanel-browser": "^2.29.1",
+    "popup": "0.0.3",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-drag-drawer": "^3.3.1",
+    "react-file-viewer": "^1.1.0",
+    "react-recaptcha": "^2.3.10",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "reactjs-popup": "^1.5.0",
+    "t": "^0.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
